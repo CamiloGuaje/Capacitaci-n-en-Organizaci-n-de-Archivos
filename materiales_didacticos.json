@@ -1,0 +1,185 @@
+{
+  "programa": "Capacitación Organización de Archivos de Gestión - Cajamarca",
+  "casos_practicos": {
+    "caso1_clasificacion": {
+      "titulo": "Clasificación de Documentos de Secretaría General",
+      "descripcion": "Los participantes deben clasificar un lote de 20 documentos recibidos en Secretaría General de la Alcaldía",
+      "documentos_ejemplo": [
+        "Oficio de citación a sesión de concejo",
+        "Resolución de nombramiento",
+        "Acta de reunión de coordinación",
+        "Factura de servicios públicos",
+        "Contrato de prestación de servicios",
+        "Memorando interno",
+        "Derecho de petición ciudadano",
+        "Respuesta a derecho de petición"
+      ],
+      "objetivos": [
+        "Identificar series documentales según TRD",
+        "Aplicar criterios de clasificación",
+        "Diferenciar documentos de apoyo de archivo"
+      ],
+      "tiempo_estimado": "45 minutos",
+      "material_apoyo": "TRD Municipal, Manual GDC-M-01"
+    },
+    "caso2_expediente": {
+      "titulo": "Conformación de Expediente de Contratación",
+      "descripcion": "Organizar un expediente completo de contratación desde la necesidad hasta la liquidación",
+      "fases": [
+        "Estudios previos y CDP",
+        "Proceso de selección",
+        "Perfeccionamiento del contrato",
+        "Ejecución y seguimiento",
+        "Liquidación"
+      ],
+      "documentos_incluidos": [
+        "Certificado de disponibilidad presupuestal",
+        "Estudios previos",
+        "Invitación pública",
+        "Propuestas recibidas",
+        "Evaluación técnica y jurídica",
+        "Contrato perfeccionado",
+        "Informes de supervisión",
+        "Acta de liquidación"
+      ],
+      "habilidades_desarrolladas": [
+        "Ordenación cronológica",
+        "Foliación consecutiva",
+        "Identificación de subseries",
+        "Control de integridad documental"
+      ],
+      "tiempo_estimado": "60 minutos"
+    },
+    "caso3_transferencia": {
+      "titulo": "Transferencia Documental Primaria",
+      "descripción": "Simular una transferencia real de documentos del archivo de gestión al archivo central",
+      "escenario": "La dependencia de Tesorería debe transferir los expedientes del año anterior",
+      "series_incluidas": [
+        "Pagos a proveedores",
+        "Nómina de funcionarios",
+        "Recaudos municipales",
+        "Conciliaciones bancarias"
+      ],
+      "instrumentos_utilizados": [
+        "Formato Único de Inventario Documental (FUID)",
+        "Rótulos de identificación",
+        "Acta de transferencia",
+        "Cronograma de transferencias"
+      ],
+      "tiempo_estimado": "90 minutos"
+    },
+    "caso4_conservacion": {
+      "titulo": "Diagnóstico y Plan de Conservación",
+      "descripcion": "Evaluar el estado de conservación de documentos históricos municipales",
+      "documentos_analizar": [
+        "Acuerdos municipales de 1990-2000",
+        "Planos urbanísticos originales",
+        "Correspondencia histórica",
+        "Fotografías de eventos institucionales"
+      ],
+      "factores_deterioro": [
+        "Humedad relativa alta",
+        "Luz solar directa",
+        "Contaminantes atmosféricos",
+        "Manipulación inadecuada",
+        "Plagas (insectos, roedores)"
+      ],
+      "medidas_preventivas": [
+        "Control ambiental",
+        "Limpieza técnica",
+        "Reubicación en mobiliario adecuado",
+        "Capacitación en manipulación"
+      ],
+      "tiempo_estimado": "75 minutos"
+    }
+  },
+  "guias_actividades": {
+    "actividad_foliacion": {
+      "titulo": "Foliación de Documentos",
+      "pasos": [
+        "1. Retirar ganchos, clips y elementos metálicos",
+        "2. Ordenar documentos cronológicamente",
+        "3. Enumerar con lápiz mina negra en esquina superior derecha",
+        "4. Registrar folios faltantes o dañados",
+        "5. Elaborar hoja de control de foliación"
+      ],
+      "materiales": [
+        "Lápices mina negra tipo HB",
+        "Borrador",
+        "Regla",
+        "Formato de control de foliación"
+      ],
+      "errores_comunes": [
+        "Usar bolígrafo o marcador",
+        "Foliar por ambas caras",
+        "Saltar números en la secuencia",
+        "No registrar folios en blanco"
+      ]
+    },
+    "actividad_rotulacion": {
+      "titulo": "Rotulación de Unidades de Conservación",
+      "componentes_rotulo": [
+        "Nombre de la entidad",
+        "Dependencia productora",
+        "Serie o subserie documental",
+        "Fechas extremas",
+        "Número consecutivo de caja/carpeta",
+        "Número de folios"
+      ],
+      "ejemplo": {
+        "entidad": "ALCALDÍA MUNICIPAL DE CAJAMARCA",
+        "dependencia": "SECRETARÍA GENERAL",
+        "serie": "RESOLUCIONES ADMINISTRATIVAS",
+        "fechas": "2023 - 2024",
+        "unidad": "CARPETA No. 001",
+        "folios": "FOLIOS 001 - 156"
+      }
+    }
+  },
+  "evaluacion": {
+    "evaluacion_teorica": {
+      "peso": "30%",
+      "temas": [
+        "Marco normativo (Ley 594, Acuerdo 001)",
+        "Definiciones archivísticas fundamentales",
+        "Principios de organización documental",
+        "Ciclo vital del documento"
+      ],
+      "tipo": "Cuestionario de 20 preguntas mixtas",
+      "tiempo": "45 minutos",
+      "puntaje_minimo": "3.0/5.0"
+    },
+    "evaluacion_practica": {
+      "peso": "40%",
+      "actividades": [
+        "Clasificación correcta de documentos (25%)",
+        "Foliación y ordenación adecuada (35%)",
+        "Rotulación de unidades de conservación (20%)",
+        "Diligenciamiento de inventarios (20%)"
+      ],
+      "rubrica": {
+        "excelente": "4.5-5.0: Ejecuta correctamente todos los procedimientos",
+        "bueno": "3.5-4.4: Ejecuta la mayoría de procedimientos con errores menores",
+        "aceptable": "3.0-3.4: Ejecuta procedimientos básicos con algunos errores",
+        "deficiente": "0.0-2.9: No logra ejecutar los procedimientos requeridos"
+      }
+    },
+    "evaluacion_participacion": {
+      "peso": "30%",
+      "criterios": [
+        "Asistencia y puntualidad",
+        "Participación en discusiones",
+        "Trabajo colaborativo en talleres",
+        "Cumplimiento de actividades asignadas"
+      ]
+    }
+  },
+  "recursos_complementarios": [
+    "Manual GDC-M-01 (documento base)",
+    "Tabla de Retención Documental municipal vigente",
+    "Formatos FUID y inventarios",
+    "Ejemplos de rótulos y etiquetas",
+    "Videos demostrativos de técnicas",
+    "Check-lists de verificación"
+  ]
+}

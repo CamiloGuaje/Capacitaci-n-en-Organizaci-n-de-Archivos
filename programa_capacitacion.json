@@ -1,0 +1,85 @@
+{
+  "programa": "Capacitación Didáctica en Organización de Archivo de Gestión",
+  "entidad": "Alcaldía Municipal de Cajamarca",
+  "duracion": "16 horas académicas",
+  "modalidad": "Presencial y Virtual",
+  "objetivos": {
+    "general": "Formar a los funcionarios de la Alcaldía Municipal de Cajamarca en técnicas y procedimientos para la organización, clasificación y conservación de archivos de gestión, de acuerdo con la normatividad vigente y las mejores prácticas archivísticas.",
+    "especificos": [
+      "Comprender el marco normativo que rige la gestión documental en Colombia",
+      "Aplicar correctamente los procesos de clasificación y ordenación documental",
+      "Implementar las Tablas de Retención Documental (TRD) en la práctica",
+      "Desarrollar competencias para la conformación y mantenimiento de expedientes",
+      "Establecer rutinas de conservación y preservación documental"
+    ]
+  },
+  "metodologia": {
+    "enfoque": "Aprendizaje basado en casos prácticos",
+    "estrategias": [
+      "Presentaciones interactivas",
+      "Talleres prácticos con documentos reales",
+      "Simulaciones de procesos archivísticos",
+      "Evaluaciones formativas",
+      "Trabajo colaborativo en grupos"
+    ]
+  },
+  "contenidos": {
+    "modulo1": {
+      "titulo": "Marco Normativo y Fundamentos",
+      "duracion": "4 horas",
+      "temas": [
+        "Ley 594 de 2000 - Ley General de Archivos",
+        "Acuerdo 001 de 2024 - Función Archivística",
+        "Ley 1712 de 2014 - Transparencia y Acceso",
+        "Definiciones fundamentales",
+        "Principios archivísticos universales"
+      ]
+    },
+    "modulo2": {
+      "titulo": "Ciclo Vital del Documento",
+      "duracion": "3 horas",
+      "temas": [
+        "Archivo de gestión",
+        "Archivo central",
+        "Archivo histórico",
+        "Procesos de transferencia",
+        "Valoración documental"
+      ]
+    },
+    "modulo3": {
+      "titulo": "Organización Documental",
+      "duracion": "5 horas",
+      "temas": [
+        "Clasificación documental",
+        "Ordenación cronológica",
+        "Conformación de expedientes",
+        "Foliación de documentos",
+        "Depuración y limpieza"
+      ]
+    },
+    "modulo4": {
+      "titulo": "Implementación de TRD y Conservación",
+      "duracion": "4 horas",
+      "temas": [
+        "Aplicación de Tablas de Retención Documental",
+        "Unidades de conservación",
+        "Rotulación y almacenamiento",
+        "Factores de deterioro",
+        "Medidas de conservación preventiva"
+      ]
+    }
+  },
+  "recursos_didacticos": [
+    "Manual de Organización Documental (GDC-M-01)",
+    "Plantillas de TRD",
+    "Formatos de inventarios",
+    "Videos tutoriales",
+    "Casos prácticos municipales",
+    "Aplicación web interactiva"
+  ],
+  "evaluacion": {
+    "formativa": "Participación en talleres y actividades prácticas (30%)",
+    "practica": "Organización de un expediente modelo (40%)",
+    "teorica": "Evaluación de conocimientos conceptuales (30%)"
+  }
+}

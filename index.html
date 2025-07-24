@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capacitación en Organización de Archivos - Cajamarca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Capacitación en Organización de Archivos</h1>
+            <p class="header__subtitle">Alcaldía Municipal de Cajamarca</p>
+            <p class="header__description">Programa interactivo para la gestión técnica de documentos administrativos según normatividad colombiana</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Navegación principal">
+        <div class="container">
+            <ul class="nav__list">
+                <li><button class="nav__button active" data-section="inicio" aria-current="page">🏠 Inicio</button></li>
+                <li><button class="nav__button" data-section="normativo">📋 Marco Normativo</button></li>
+                <li><button class="nav__button" data-section="proceso">📁 Proceso de Organización</button></li>
+                <li><button class="nav__button" data-section="casos">🎯 Casos Prácticos</button></li>
+                <li><button class="nav__button" data-section="evaluacion">✅ Evaluación</button></li>
+                <li><button class="nav__button" data-section="recursos">📚 Recursos</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main" role="main">
+        <div class="container">
+            
+            <!-- INICIO SECTION -->
+            <section id="inicio" class="section active">
+                <div class="welcome">
+                    <h2>Sistema de Capacitación en Organización Documental</h2>
+                    <p>Este programa interactivo te permitirá dominar los fundamentos técnicos para la organización de archivos de gestión, siguiendo las mejores prácticas archivísticas y la normatividad colombiana vigente.</p>
+                    
+                    <div class="process-explanation">
+                        <h3>📖 ¿Qué aprenderás en este programa?</h3>
+                        <ul>
+                            <li><strong>Marco Normativo:</strong> Ley 594/2000, Acuerdo 001/2024, Ley 1712/2014</li>
+                            <li><strong>Proceso Completo:</strong> Los 7 pasos detallados para organización documental</li>
+                            <li><strong>Práctica Interactiva:</strong> Ejercicios de clasificación, ordenación y foliación</li>
+                            <li><strong>Evaluación Completa:</strong> 30 preguntas distribuidas por módulos</li>
+                            <li><strong>Recursos Técnicos:</strong> Glosario, formatos y enlaces oficiales</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="modules-grid">
+                        <div class="module-card" data-target="normativo" tabindex="0" role="button" aria-describedby="desc-normativo">
+                            <h3>📋 Marco Normativo</h3>
+                            <p id="desc-normativo">Domina las leyes y acuerdos que regulan la gestión documental en Colombia con quiz de 15 preguntas</p>
+                            <button class="btn btn--primary">Estudiar Marco Legal</button>
+                        </div>
+                        <div class="module-card" data-target="proceso" tabindex="0" role="button" aria-describedby="desc-proceso">
+                            <h3>📁 Los 7 Pasos de Organización</h3>
+                            <p id="desc-proceso">Aprende paso a paso el proceso técnico completo: clasificación, depuración, ordenación, foliación, descripción, almacenamiento y rotulado</p>
+                            <button class="btn btn--primary">Iniciar Proceso</button>
+                        </div>
+                        <div class="module-card" data-target="casos" tabindex="0" role="button" aria-describedby="desc-casos">
+                            <h3>🎯 Simuladores Prácticos</h3>
+                            <p id="desc-casos">Practica con ejercicios interactivos de arrastrar y soltar, clasificación y conformación de expedientes</p>
+                            <button class="btn btn--primary">Practicar Ahora</button>
+                        </div>
+                        <div class="module-card" data-target="evaluacion" tabindex="0" role="button" aria-describedby="desc-evaluacion">
+                            <h3>✅ Evaluación Final</h3>
+                            <p id="desc-evaluacion">Demuestra tus conocimientos con 30 preguntas sobre normatividad, procesos y casos prácticos</p>
+                            <button class="btn btn--primary">Tomar Evaluación</button>
+                        </div>
+                        <div class="module-card" data-target="recursos" tabindex="0" role="button" aria-describedby="desc-recursos">
+                            <h3>📚 Recursos Técnicos</h3>
+                            <p id="desc-recursos">Accede a glosario especializado, formatos oficiales y enlaces institucionales</p>
+                            <button class="btn btn--primary">Ver Recursos</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MARCO NORMATIVO SECTION -->
+            <section id="normativo" class="section">
+                <h2>📋 Marco Normativo de la Gestión Documental</h2>
+                
+                <div class="process-explanation">
+                    <h3>Fundamentos Legales</h3>
+                    <p>La gestión documental en Colombia se fundamenta en un marco normativo sólido que establece principios, procedimientos y responsabilidades para el manejo técnico de los documentos administrativos.</p>
+                </div>
+                
+                <div class="normativas-list">
+                    <div class="card normativa-card" data-norma="ley_594" tabindex="0" role="button">
+                        <div class="card__body">
+                            <h3>📜 Ley 594 de 2000</h3>
+                            <p><strong>Ley General de Archivos:</strong> Establece las reglas y principios generales que regulan la función archivística del Estado</p>
+                            <button class="btn btn--secondary">📖 Ver Artículos Clave</button>
+                        </div>
+                    </div>
+                    <div class="card normativa-card" data-norma="acuerdo_001" tabindex="0" role="button">
+                        <div class="card__body">
+                            <h3>📋 Acuerdo 001 de 2024</h3>
+                            <p><strong>Acuerdo Único de la Función Archivística:</strong> Unifica y actualiza los criterios técnicos para la gestión documental</p>
+                            <button class="btn btn--secondary">📖 Ver Lineamientos</button>
+                        </div>
+                    </div>
+                    <div class="card normativa-card" data-norma="ley_1712" tabindex="0" role="button">
+                        <div class="card__body">
+                            <h3>🔓 Ley 1712 de 2014</h3>
+                            <p><strong>Transparencia y Acceso a la Información:</strong> Garantiza el derecho ciudadano al acceso a información pública</p>
+                            <button class="btn btn--secondary">📖 Ver Obligaciones</button>
+                        </div>
+                    </div>
+                    <div class="card normativa-card" data-norma="manual_gdc" tabindex="0" role="button">
+                        <div class="card__body">
+                            <h3>📘 Manual GDC-M-01</h3>
+                            <p><strong>Manual Municipal Cajamarca:</strong> Procedimientos específicos para la organización de archivos de gestión</p>
+                            <button class="btn btn--secondary">📖 Ver Procedimientos</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="norma-details" class="norma-details hidden">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3 id="norma-title"></h3>
+                            <p id="norma-description"></p>
+                            <h4>📌 Puntos Clave:</h4>
+                            <ul id="norma-articles"></ul>
+                            <button class="btn btn--secondary" onclick="closeNormaDetails()">❌ Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quiz-section">
+                    <h3>🧠 Quiz de Conocimiento Normativo</h3>
+                    <p><strong>Instrucciones:</strong> Responde las 15 preguntas sobre el marco normativo. Recibirás retroalimentación inmediata con explicaciones.</p>
+                    <div id="quiz-container">
+                        <div id="quiz-question" class="quiz-question"></div>
+                        <div id="quiz-options" class="quiz-options"></div>
+                        <button id="quiz-submit" class="btn btn--primary">✅ Verificar Respuesta</button>
+                        <div id="quiz-feedback" class="quiz-feedback"></div>
+                        <div class="quiz-progress">
+                            📊 Progreso: Pregunta <span id="question-number">1</span> de <span id="total-questions">15</span>
+                            <div class="progress-bar">
+                                <div id="progress-fill" class="progress-fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROCESO DE ORGANIZACIÓN SECTION -->
+            <section id="proceso" class="section">
+                <h2>📁 Proceso de Organización Documental</h2>
+                
+                <div class="process-explanation">
+                    <h3>Los 7 Pasos Fundamentales</h3>
+                    <p>La organización técnica de archivos de gestión sigue una metodología estructurada en 7 pasos secuenciales que garantizan el correcto tratamiento documental según las mejores prácticas archivísticas.</p>
+                    <p><strong>⚠️ Importante:</strong> Cada paso debe completarse antes de avanzar al siguiente para asegurar la integridad del proceso.</p>
+                </div>
+
+                <div class="process-steps">
+                    <div class="steps-grid" id="steps-grid">
+                        <!-- Los pasos se generarán dinámicamente con JavaScript -->
+                    </div>
+                </div>
+
+                <div id="step-details" class="step-details hidden">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3 id="step-title"></h3>
+                            <p id="step-description"></p>
+                            
+                            <h4>🎯 Actividades Específicas:</h4>
+                            <ul id="step-activities"></ul>
+                            
+                            <h4>📋 Lista de Verificación:</h4>
+                            <div id="step-checklist"></div>
+                            
+                            <h4>⚠️ Puntos Críticos:</h4>
+                            <div id="step-warnings"></div>
+                            
+                            <h4>💡 Consejos Prácticos:</h4>
+                            <div id="step-tips"></div>
+                            
+                            <div class="mt-8">
+                                <button class="btn btn--secondary" onclick="closeStepDetails()">❌ Cerrar</button>
+                                <button class="btn btn--primary" onclick="startStepSimulator()">🎮 Iniciar Simulador</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="step-simulator" class="step-simulator hidden">
+                    <div class="card">
+                        <div class="card__header">
+                            <h3 id="simulator-title">Simulador de Paso</h3>
+                        </div>
+                        <div class="card__body">
+                            <div id="simulator-content"></div>
+                            <div class="mt-8">
+                                <button class="btn btn--secondary" onclick="closeStepSimulator()">❌ Cerrar Simulador</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CASOS PRÁCTICOS SECTION -->
+            <section id="casos" class="section">
+                <h2>🎯 Casos Prácticos Interactivos</h2>
+                
+                <div class="process-explanation">
+                    <h3>Ejercicios de Aplicación</h3>
+                    <p>Desarrolla tus habilidades prácticas con simuladores interactivos que replican situaciones reales de trabajo archivístico. Cada ejercicio incluye retroalimentación inmediata y puntuación.</p>
+                </div>
+                
+                <div class="exercises-tabs">
+                    <button class="tab-button active" data-exercise="clasificacion">📂 Clasificación por Series</button>
+                    <button class="tab-button" data-exercise="foliacion">📄 Foliación Cronológica</button>
+                    <button class="tab-button" data-exercise="expedientes">📋 Conformación de Expedientes</button>
+                    <button class="tab-button" data-exercise="rotulado">🏷️ Rotulado de Carpetas</button>
+                </div>
+
+                <!-- Ejercicio de Clasificación -->
+                <div id="ejercicio-clasificacion" class="exercise active">
+                    <h3>📂 Ejercicio: Clasificación de Documentos por Series</h3>
+                    <p><strong>Objetivo:</strong> Arrastra cada documento a la serie documental correcta según la TRD de Cajamarca</p>
+                    
+                    <div class="classification-game" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0;">
+                        <div class="documents-container" style="background: var(--color-surface); border: 2px solid var(--color-border-gray); border-radius: var(--radius-lg); padding: 1.5rem;">
+                            <h4>📄 Documentos por clasificar:</h4>
+                            <div id="documents-list" class="documents-list" style="min-height: 200px; margin-top: 1rem;">
+                                <!-- Se llenan dinámicamente -->
+                            </div>
+                        </div>
+                        
+                        <div class="series-container" style="background: var(--color-surface); border: 2px solid var(--color-border-gray); border-radius: var(--radius-lg); padding: 1.5rem;">
+                            <h4>📁 Series Documentales (TRD):</h4>
+                            <div id="series-list" class="series-list" style="min-height: 200px; margin-top: 1rem;">
+                                <!-- Se llenan dinámicamente -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="exercise-controls">
+                        <button class="btn btn--primary" id="check-classification">✅ Verificar Clasificación</button>
+                        <button class="btn btn--secondary" id="reset-classification">🔄 Reiniciar Ejercicio</button>
+                        <div class="score">📊 Puntuación: <span id="classification-score">0</span>/6</div>
+                    </div>
+                    <div id="classification-feedback" class="exercise-feedback"></div>
+                </div>
+
+                <!-- Ejercicio de Foliación -->
+                <div id="ejercicio-foliacion" class="exercise">
+                    <h3>📄 Ejercicio: Foliación Cronológica</h3>
+                    <p><strong>Objetivo:</strong> Asigna el número de folio correcto a cada documento según el orden cronológico</p>
+                    
+                    <div class="foliation-game">
+                        <div id="foliation-documents" class="foliation-documents" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+                            <!-- Se llenan dinámicamente -->
+                        </div>
+                    </div>
+                    
+                    <div class="exercise-controls">
+                        <button class="btn btn--primary" id="check-foliation">✅ Verificar Foliación</button>
+                        <button class="btn btn--secondary" id="reset-foliation">🔄 Reiniciar</button>
+                        <div class="score">📊 Puntuación: <span id="foliation-score">0</span>/8</div>
+                    </div>
+                    <div id="foliation-feedback" class="exercise-feedback"></div>
+                </div>
+
+                <!-- Ejercicio de Expedientes -->
+                <div id="ejercicio-expedientes" class="exercise">
+                    <h3>📋 Ejercicio: Conformación de Expedientes</h3>
+                    <p><strong>Objetivo:</strong> Organiza los documentos en orden cronológico correcto para formar un expediente</p>
+                    
+                    <div class="expedientes-game">
+                        <div id="expediente-documents" class="expediente-documents" style="display: flex; flex-wrap: wrap; gap: 1rem; min-height: 200px; background: var(--color-surface); border: 2px dashed var(--color-border-gray); border-radius: var(--radius-lg); padding: 1.5rem;">
+                            <!-- Se llenan dinámicamente -->
+                        </div>
+                    </div>
+                    
+                    <div class="exercise-controls">
+                        <button class="btn btn--primary" id="check-expediente">✅ Verificar Expediente</button>
+                        <button class="btn btn--secondary" id="reset-expediente">🔄 Reiniciar</button>
+                        <div class="score">📊 Puntuación: <span id="expediente-score">0</span>/10</div>
+                    </div>
+                    <div id="expediente-feedback" class="exercise-feedback"></div>
+                </div>
+
+                <!-- Ejercicio de Rotulado -->
+                <div id="ejercicio-rotulado" class="exercise">
+                    <h3>🏷️ Ejercicio: Rotulado de Carpetas</h3>
+                    <p><strong>Objetivo:</strong> Completa los datos requeridos para el rótulo de carpetas según normatividad</p>
+                    
+                    <div class="rotulado-game" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0;">
+                        <div class="rotulo-form" style="background: var(--color-surface); border: 2px solid var(--color-border-gray); border-radius: var(--radius-lg); padding: 1.5rem;">
+                            <h4>📝 Completa el Rótulo:</h4>
+                            <div class="form-group">
+                                <label class="form-label" for="entidad">Entidad:</label>
+                                <input type="text" id="entidad" class="form-control" placeholder="Ej: Alcaldía Municipal de Cajamarca">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="serie">Serie Documental:</label>
+                                <select id="serie" class="form-control">
+                                    <option value="">Seleccione una serie</option>
+                                    <option value="correspondencia">Correspondencia</option>
+                                    <option value="resoluciones">Resoluciones</option>
+                                    <option value="contratos">Contratos</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="fechas">Fechas Extremas:</label>
+                                <input type="text" id="fechas" class="form-control" placeholder="Ej: 2024-01-01 / 2024-12-31">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="folios">Número de Folios:</label>
+                                <input type="number" id="folios" class="form-control" placeholder="Ej: 150" min="1" max="200">
+                            </div>
+                        </div>
+                        
+                        <div class="rotulo-preview" style="background: var(--color-light-blue); border: 2px solid var(--color-primary-blue); border-radius: var(--radius-lg); padding: 1.5rem;">
+                            <h5>👁️ Vista previa del rótulo:</h5>
+                            <div id="rotulo-display" class="rotulo-mock" style="background: white; border: 1px solid #ccc; padding: 1rem; margin-top: 1rem;">
+                                <div class="rotulo-field" style="margin-bottom: 0.5rem;">ENTIDAD: <span id="preview-entidad">_______________</span></div>
+                                <div class="rotulo-field" style="margin-bottom: 0.5rem;">SERIE: <span id="preview-serie">_______________</span></div>
+                                <div class="rotulo-field" style="margin-bottom: 0.5rem;">FECHAS: <span id="preview-fechas">_______________</span></div>
+                                <div class="rotulo-field">FOLIOS: <span id="preview-folios">_______________</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="exercise-controls">
+                        <button class="btn btn--primary" id="check-rotulo">✅ Generar Rótulo</button>
+                        <button class="btn btn--secondary" id="reset-rotulo">🔄 Limpiar Formulario</button>
+                    </div>
+                    <div id="rotulado-feedback" class="exercise-feedback"></div>
+                </div>
+            </section>
+
+            <!-- EVALUACIÓN SECTION -->
+            <section id="evaluacion" class="section">
+                <h2>✅ Evaluación Completa de Conocimientos</h2>
+                
+                <div class="process-explanation">
+                    <h3>Evaluación Final - 30 Preguntas</h3>
+                    <p>Demuestra tu dominio completo del programa con esta evaluación integral que abarca todos los módulos estudiados.</p>
+                    
+                    <div class="evaluation-breakdown">
+                        <h4>📊 Distribución de Preguntas:</h4>
+                        <ul>
+                            <li><strong>Marco Normativo:</strong> 8 preguntas sobre leyes y acuerdos</li>
+                            <li><strong>Proceso de Organización:</strong> 15 preguntas sobre los 7 pasos técnicos</li>
+                            <li><strong>Casos Prácticos:</strong> 7 preguntas sobre aplicación práctica</li>
+                        </ul>
+                        <p><strong>⏱️ Tiempo estimado:</strong> 45 minutos | <strong>🎯 Puntaje mínimo aprobatorio:</strong> 24/30 (80%)</p>
+                    </div>
+                </div>
+                
+                <div class="evaluation-container">
+                    <div id="evaluation-start" class="evaluation-start">
+                        <div class="card">
+                            <div class="card__body text-center">
+                                <h3>¿Estás listo para la evaluación?</h3>
+                                <p>Antes de comenzar, asegúrate de haber estudiado todos los módulos del programa.</p>
+                                <button class="btn btn--primary btn--lg" id="start-evaluation">🚀 Iniciar Evaluación</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="evaluation-quiz" class="evaluation-quiz hidden">
+                        <div class="card">
+                            <div class="card__body">
+                                <div class="evaluation-header">
+                                    <div class="evaluation-progress">
+                                        📊 Progreso: <span id="eval-current">1</span> de <span id="eval-total">30</span>
+                                        <div class="progress-bar">
+                                            <div id="eval-progress-fill" class="progress-fill"></div>
+                                        </div>
+                                    </div>
+                                    <div class="evaluation-category">
+                                        📂 Categoría: <span id="eval-category">Marco Normativo</span>
+                                    </div>
+                                </div>
+                                
+                                <div id="eval-question" class="quiz-question"></div>
+                                <div id="eval-options" class="quiz-options"></div>
+                                <button id="eval-submit" class="btn btn--primary">✅ Confirmar Respuesta</button>
+                                <div id="eval-feedback" class="quiz-feedback"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="evaluation-results" class="evaluation-results hidden">
+                        <div class="card">
+                            <div class="card__body text-center">
+                                <h3 id="results-title">🎉 ¡Evaluación Completada!</h3>
+                                <div class="results-score">
+                                    <div class="score-circle" style="font-size: 2rem; font-weight: bold; color: var(--color-primary-blue);">
+                                        <span id="final-score">0</span>/<span id="final-total">30</span>
+                                    </div>
+                                    <p id="score-percentage" style="font-size: 1.5rem; font-weight: bold;">0%</p>
+                                </div>
+                                <div id="results-message" class="results-message"></div>
+                                <div class="results-breakdown">
+                                    <h4>📊 Desglose por Categorías:</h4>
+                                    <div id="category-scores"></div>
+                                </div>
+                                <button class="btn btn--primary" onclick="location.reload()">🔄 Reiniciar Programa</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- RECURSOS SECTION -->
+            <section id="recursos" class="section">
+                <h2>📚 Recursos y Materiales de Apoyo</h2>
+                
+                <div class="resources-grid">
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>📖 Glosario Especializado</h3>
+                        </div>
+                        <div class="card__body">
+                            <div id="glossary" class="glossary" style="max-height: 400px; overflow-y: auto;">
+                                <!-- Se llena dinámicamente -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>📄 Formatos Oficiales</h3>
+                        </div>
+                        <div class="card__body">
+                            <ul class="download-list">
+                                <li><a href="https://docs.google.com/spreadsheets/d/1qaRjogoVAWD-UpRBMb2LgWDGygCXBukg/edit?usp=drive_link&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">📋 Plantilla de Inventario Documental</a></li>
+                                <li><a href="https://docs.google.com/spreadsheets/d/1j6B71scjvek0YZNUhWmnD1RKmnnwHUrn/edit?usp=drive_link&ouid=102743935108992670663&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">🏷️ Formato de Rótulos Estándar</a></li>
+                                <li><a href="https://docs.google.com/spreadsheets/d/18LI-lYXxJHP2FkpWqaNbhiTWcVfEf1Lx/edit?usp=drive_link&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">📊 Guía para Tablas de Retención</a></li>
+                                <li><a href="https://docs.google.com/document/d/1pCW8mgkL_QIUSL5346AecdOV2Q8HQ4Zh/edit?usp=drive_link&ouid=102743935108992670663&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">✅ Manual de Organizacion Archivo de Gestion</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>🔗 Enlaces Institucionales</h3>
+                        </div>
+                        <div class="card__body">
+                            <ul class="link-list">
+                                <li><a href="https://www.archivogeneral.gov.co/" target="_blank" rel="noopener noreferrer">🏛️ Archivo General de la Nación</a></li>
+                                <li><a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4275" target="_blank" rel="noopener noreferrer">📜 Ley 594 de 2000 - Texto Completo</a></li>
+                                <li><a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=56882" target="_blank" rel="noopener noreferrer">📋 Ley 1712 de 2014 - Transparencia</a></li>
+                                <li><a href="https://www.cajamarca-tolima.gov.co/" target="_blank" rel="noopener noreferrer">🏢 Alcaldía de Cajamarca - Tolima</a></li>
+                                <li><a href="https://www.archivogeneral.gov.co/sites/default/files/Estructura_Web/3_Transparencia/4.%20Normativa/Normograma_2024.pdf" target="_blank" rel="noopener noreferrer">⚖️ Normatividad Archivística Completa</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>📑 Manual de Referencia Rápida</h3>
+                        </div>
+                        <div class="card__body">
+                            <p>Guía condensada con los puntos esenciales del proceso de organización documental para consulta rápida.</p>
+                            <button class="btn btn--primary" id="quick-reference">📖 Ver Manual Completo</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="quick-reference-modal" class="modal hidden">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>📑 Manual de Referencia Rápida</h3>
+                            <button class="modal-close" onclick="closeModal()" aria-label="Cerrar modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>🔄 Los 7 Pasos Esenciales:</h4>
+                            <ol>
+                                <li><strong>CLASIFICACIÓN:</strong> Agrupar documentos según series documentales (TRD)</li>
+                                <li><strong>DEPURACIÓN:</strong> Eliminar duplicados, folios en blanco y documentos de apoyo</li>
+                                <li><strong>ORDENACIÓN:</strong> Organizar cronológicamente de fecha más antigua a reciente</li>
+                                <li><strong>FOLIACIÓN:</strong> Numerar consecutivamente con lápiz mina negra en esquina superior derecha</li>
+                                <li><strong>DESCRIPCIÓN:</strong> Elaborar hojas de control e inventarios documentales (FUID)</li>
+                                <li><strong>ALMACENAMIENTO:</strong> Ubicar en carpetas apropiadas (máximo 200 folios por carpeta)</li>
+                                <li><strong>ROTULADO:</strong> Identificar carpetas con información completa y legible</li>
+                            </ol>
+                            
+                            <h4>⚠️ Puntos Críticos:</h4>
+                            <ul>
+                                <li>Usar exclusivamente lápiz mina negra HB para foliación</li>
+                                <li>Retirar completamente grapas, clips y elementos metálicos</li>
+                                <li>Mantener estrictamente el orden cronológico</li>
+                                <li>No exceder 200 folios por carpeta</li>
+                                <li>Actualizar inmediatamente los inventarios tras cada intervención</li>
+                                <li>Seguir rigurosamente las TRD institucionales vigentes</li>
+                            </ul>
+                            
+                            <h4>📋 Marco Legal Fundamental:</h4>
+                            <ul>
+                                <li><strong>Ley 594/2000:</strong> Principios generales de función archivística</li>
+                                <li><strong>Acuerdo 001/2024:</strong> Criterios técnicos unificados</li>
+                                <li><strong>Ley 1712/2014:</strong> Transparencia y acceso ciudadano</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Alcaldía Municipal de Cajamarca - Tolima | Sistema de Capacitación en Organización de Archivos de Gestión</p>
+            <p>Desarrollado según Manual GDC-M-01 y normatividad archivística colombiana vigente</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

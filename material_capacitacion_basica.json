@@ -1,0 +1,252 @@
+{
+  "programa": "Capacitación Básica en Archivos para Principiantes",
+  "publico": "Funcionarios y contratistas sin experiencia archivística",
+  "enfoque": "Didáctico, práctico y sin tecnicismos complejos",
+  "manual_basico": {
+    "titulo": "Manual Básico de Archivos para Principiantes",
+    "publico_objetivo": "Funcionarios y contratistas de la Alcaldía con poca o nula experiencia en gestión documental",
+    "conceptos_fundamentales": {
+      "que_es_archivo": {
+        "definicion_simple": "Un archivo es el lugar donde guardamos y organizamos todos los documentos de la Alcaldía de manera ordenada para poder encontrarlos fácilmente cuando los necesitemos",
+        "analogia": "Es como organizar tu casa: cada cosa en su lugar y un lugar para cada cosa",
+        "ejemplos_cotidianos": [
+          "Como organizar los papeles en tu escritorio",
+          "Como guardar fotos en tu celular por fechas",
+          "Como ordenar libros en una biblioteca"
+        ]
+      },
+      "por_que_importante": {
+        "razones_practicas": [
+          "Para encontrar documentos rápidamente",
+          "Para no perder información importante",
+          "Para cumplir con la ley",
+          "Para servir mejor a los ciudadanos",
+          "Para preservar la memoria de la Alcaldía"
+        ],
+        "consecuencias_mal_archivo": [
+          "Se pierden documentos importantes",
+          "Los ciudadanos se quejan por demoras",
+          "La Alcaldía puede recibir sanciones",
+          "Se desperdicia tiempo buscando papeles"
+        ]
+      }
+    },
+    "reglas_doradas": [
+      {
+        "regla": "Nunca botes un documento sin preguntar",
+        "explicacion": "Algunos papeles que parecen sin importancia pueden ser muy valiosos para la historia o la ley"
+      },
+      {
+        "regla": "Siempre escribe con lápiz en los documentos oficiales",
+        "explicacion": "El lápiz no daña el papel y se puede borrar si hay errores"
+      },
+      {
+        "regla": "Guarda los documentos del mismo tema juntos",
+        "explicacion": "Es más fácil encontrar todo lo relacionado con un asunto si está en el mismo lugar"
+      },
+      {
+        "regla": "Ordena por fechas: lo más viejo primero",
+        "explicacion": "Así podemos ver cómo ha evolucionado un tema a través del tiempo"
+      },
+      {
+        "regla": "Cada caja y carpeta debe tener su nombre",
+        "explicacion": "Sin etiquetas es imposible saber qué contiene cada recipiente"
+      }
+    ],
+    "pasos_simples": [
+      {
+        "paso": "1. RECIBIR",
+        "que_hacer": "Cuando te den documentos, revisa que estén completos",
+        "tips": [
+          "Cuenta las hojas",
+          "Verifica que se puedan leer",
+          "Anota la fecha en que los recibiste"
+        ]
+      },
+      {
+        "paso": "2. SEPARAR",
+        "que_hacer": "Agrupa los documentos por temas similares",
+        "tips": [
+          "Los contratos van con contratos",
+          "Las facturas van con facturas",
+          "Las cartas van con cartas"
+        ]
+      },
+      {
+        "paso": "3. ORDENAR",
+        "que_hacer": "Organiza cada grupo por fechas, del más viejo al más nuevo",
+        "tips": [
+          "Busca la fecha en cada documento",
+          "Si no tiene fecha, pregunta",
+          "Usa separadores para dividir los meses"
+        ]
+      },
+      {
+        "paso": "4. LIMPIAR",
+        "que_hacer": "Quita ganchos, clips y papeles repetidos",
+        "tips": [
+          "Usa un quitaganchos con cuidado",
+          "Bota las hojas en blanco",
+          "Mantén solo una copia de cada documento"
+        ]
+      },
+      {
+        "paso": "5. NUMERAR",
+        "que_hacer": "Pon un número a cada hoja con lápiz",
+        "tips": [
+          "Empieza por el 1",
+          "Escribe en la esquina superior derecha",
+          "No saltes números"
+        ]
+      },
+      {
+        "paso": "6. GUARDAR",
+        "que_hacer": "Mete los documentos en carpetas apropiadas",
+        "tips": [
+          "Usa carpetas de cartón",
+          "No aprietes mucho",
+          "Deja espacio para más documentos"
+        ]
+      },
+      {
+        "paso": "7. ETIQUETAR",
+        "que_hacer": "Pega una etiqueta con la información de qué contiene",
+        "tips": [
+          "Escribe claro y legible",
+          "Incluye las fechas",
+          "Pon el nombre de la dependencia"
+        ]
+      }
+    ],
+    "ejercicios_faciles": [
+      {
+        "ejercicio": "Practicar ordenar por fechas",
+        "materiales": "10 documentos con diferentes fechas",
+        "tiempo": "15 minutos",
+        "instrucciones": [
+          "Toma los documentos sin mirar las fechas",
+          "Busca la fecha en cada uno",
+          "Ordénalos del más viejo al más nuevo",
+          "Verifica con el facilitador que estén bien ordenados"
+        ]
+      },
+      {
+        "ejercicio": "Quitar ganchos sin dañar",
+        "materiales": "Documentos enganchados y quitaganchos",
+        "tiempo": "10 minutos",
+        "instrucciones": [
+          "Usa el quitaganchos por debajo del gancho",
+          "Haz presión suave hacia arriba",
+          "Si el papel se rompe un poco, no te preocupes",
+          "Alisa el papel con cuidado"
+        ]
+      },
+      {
+        "ejercicio": "Escribir números con lápiz",
+        "materiales": "Hojas de papel y lápiz HB",
+        "tiempo": "10 minutos",
+        "instrucciones": [
+          "Numera 20 hojas consecutivamente",
+          "Escribe en la esquina superior derecha",
+          "Hazlo despacio y que se vea claro",
+          "No aprietes mucho el lápiz"
+        ]
+      }
+    ]
+  },
+  "presentacion_introductoria": {
+    "titulo": "Mi Primera Clase de Archivos",
+    "duracion": "90 minutos",
+    "objetivo": "Que los participantes pierdan el miedo a los archivos y entiendan lo básico",
+    "estructura": [
+      {
+        "tiempo": "0-10 min",
+        "actividad": "Rompehielos: ¿Cómo organizas tu casa?",
+        "descripcion": "Cada persona cuenta cómo organiza sus cosas en casa para romper el hielo"
+      },
+      {
+        "tiempo": "10-25 min",
+        "actividad": "¿Por qué son importantes los archivos?",
+        "descripcion": "Explicar con ejemplos cotidianos por qué necesitamos organizar documentos"
+      },
+      {
+        "tiempo": "25-40 min",
+        "actividad": "Conociendo los documentos de la Alcaldía",
+        "descripcion": "Mostrar ejemplos reales de documentos que manejan diariamente"
+      },
+      {
+        "tiempo": "40-50 min",
+        "actividad": "DESCANSO",
+        "descripcion": "Pausa activa y café"
+      },
+      {
+        "tiempo": "50-70 min",
+        "actividad": "Práctica: Ordenar documentos por fechas",
+        "descripcion": "Ejercicio grupal con documentos reales de la Alcaldía"
+      },
+      {
+        "tiempo": "70-85 min",
+        "actividad": "Las 5 reglas de oro que nunca debes olvidar",
+        "descripcion": "Repaso de las reglas más importantes de manera memorable"
+      },
+      {
+        "tiempo": "85-90 min",
+        "actividad": "Compromisos y próximos pasos",
+        "descripcion": "Cada persona se compromete a aplicar algo específico"
+      }
+    ]
+  },
+  "evaluacion_simple": {
+    "tipo": "Evaluación diagnóstica y formativa",
+    "enfoque": "Más práctica que teórica",
+    "antes_capacitacion": {
+      "preguntas": [
+        "¿Has organizado archivos antes? (Sí/No/Un poco)",
+        "¿Sabes qué es una TRD? (Sí/No/He escuchado el término)",
+        "¿Te sientes cómodo/a organizando documentos? (1-5)",
+        "¿Qué es lo que más te preocupa de manejar archivos?"
+      ]
+    },
+    "durante_capacitacion": {
+      "observaciones": [
+        "Participación en ejercicios prácticos",
+        "Preguntas que hace el participante",
+        "Nivel de comprensión de conceptos básicos",
+        "Habilidad para seguir instrucciones paso a paso"
+      ]
+    },
+    "despues_capacitacion": {
+      "practica": {
+        "tarea": "Organizar 10 documentos siguiendo los 7 pasos",
+        "criterios": [
+          "¿Logró separar por tipos?",
+          "¿Ordenó correctamente por fechas?",
+          "¿Numeró todas las hojas?",
+          "¿Hizo etiqueta legible?"
+        ]
+      },
+      "reflexion": [
+        "¿Qué fue lo más fácil de la capacitación?",
+        "¿Qué fue lo más difícil?",
+        "¿Qué aplicarías en tu trabajo diario?",
+        "¿Qué más te gustaría aprender?"
+      ]
+    }
+  },
+  "metodologia_especial": {
+    "principios": [
+      "Usar lenguaje simple y cotidiano",
+      "Hacer analogías con situaciones familiares",
+      "Practicar mucho más que teorizar",
+      "Crear ambiente de confianza sin juicios",
+      "Reconocer que todos pueden aprender"
+    ],
+    "tecnicas": [
+      "Aprendizaje por modelado (mostrar como hacer)",
+      "Práctica guiada paso a paso",
+      "Trabajo en parejas para apoyo mutuo",
+      "Uso de casos reales de la Alcaldía",
+      "Retroalimentación positiva constante"
+    ]
+  }
+}

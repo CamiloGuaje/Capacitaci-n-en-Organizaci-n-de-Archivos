@@ -1,0 +1,227 @@
+{
+  "titulo": "PAQUETE DE PLANTILLAS Y FORMATOS",
+  "descripcion": "Herramientas prácticas para funcionarios que están aprendiendo a organizar archivos",
+  "publico": "Funcionarios y contratistas de la Alcaldía Municipal de Cajamarca",
+  "plantillas": {
+    "plantilla_inventario_simple": {
+      "nombre": "INVENTARIO SIMPLE DE DOCUMENTOS",
+      "uso": "Para llevar control básico de lo que se tiene en cada carpeta",
+      "campos": [
+        "Fecha de inventario",
+        "Dependencia",
+        "Responsable",
+        "Número de carpeta/caja",
+        "Tipo de documentos (ej: facturas, contratos, etc.)",
+        "Fecha inicial de documentos",
+        "Date final de documentos",
+        "Cantidad de hojas",
+        "Observaciones"
+      ],
+      "ejemplo": {
+        "fecha_inventario": "15/01/2025",
+        "dependencia": "TESORERÍA",
+        "responsable": "María González",
+        "numero_carpeta": "CARPETA 001",
+        "tipo_documentos": "Facturas de servicios públicos",
+        "fecha_inicial": "01/01/2024",
+        "fecha_final": "31/12/2024",
+        "cantidad_hojas": "245",
+        "observaciones": "Documentos en buen estado, numerados del 001 al 245"
+      }
+    },
+    "plantilla_rotulo_carpeta": {
+      "nombre": "RÓTULO PARA CARPETAS",
+      "uso": "Etiqueta que va pegada en cada carpeta para identificar su contenido",
+      "formato": [
+        "ALCALDÍA MUNICIPAL DE CAJAMARCA",
+        "DEPENDENCIA: _______________",
+        "TIPO DE DOCUMENTOS: _______________",
+        "FECHAS: Desde _______ Hasta _______",
+        "CARPETA N°: _______",
+        "FOLIOS: Del _____ al _____",
+        "RESPONSABLE: _______________"
+      ],
+      "ejemplo_lleno": [
+        "ALCALDÍA MUNICIPAL DE CAJAMARCA",
+        "DEPENDENCIA: SECRETARÍA GENERAL",
+        "TIPO DE DOCUMENTOS: RESOLUCIONES ADMINISTRATIVAS",
+        "FECHAS: Desde 01/01/2024 Hasta 31/12/2024",
+        "CARPETA N°: 001",
+        "FOLIOS: Del 001 al 156",
+        "RESPONSABLE: JUAN PÉREZ"
+      ]
+    },
+    "lista_verificacion": {
+      "nombre": "LISTA DE VERIFICACIÓN - ORGANIZACIÓN DE DOCUMENTOS",
+      "uso": "Para verificar que cada paso se haga correctamente",
+      "pasos": [
+        {
+          "paso": "1. RECEPCIÓN",
+          "verificar": [
+            "□ Los documentos están completos",
+            "□ Se pueden leer claramente",
+            "□ Se registró la fecha de recepción",
+            "□ Se asignó un responsable"
+          ]
+        },
+        {
+          "paso": "2. CLASIFICACIÓN",
+          "verificar": [
+            "□ Se separaron por tipos/temas",
+            "□ Se consultó la TRD si era necesario",
+            "□ Se apartaron documentos de apoyo",
+            "□ Cada grupo tiene documentos similares"
+          ]
+        },
+        {
+          "paso": "3. ORDENACIÓN",
+          "verificar": [
+            "□ Los documentos están ordenados por fecha",
+            "□ Van del más antiguo al más reciente",
+            "□ Las fechas están verificadas",
+            "□ Se usaron separadores si era necesario"
+          ]
+        },
+        {
+          "paso": "4. DEPURACIÓN",
+          "verificar": [
+            "□ Se retiraron ganchos y clips",
+            "□ Se eliminaron documentos duplicados",
+            "□ Se quitaron folios en blanco",
+            "□ Los documentos están limpios"
+          ]
+        },
+        {
+          "paso": "5. FOLIACIÓN",
+          "verificar": [
+            "□ Se numeraron todas las hojas",
+            "□ Se usó lápiz mina negra (HB)",
+            "□ Los números están en esquina superior derecha",
+            "□ No se saltaron números",
+            "□ Se registraron folios faltantes"
+          ]
+        },
+        {
+          "paso": "6. ALMACENAMIENTO",
+          "verificar": [
+            "□ Los documentos están en carpetas adecuadas",
+            "□ No están muy apretados",
+            "□ Hay espacio para más documentos",
+            "□ Las carpetas están en buen estado"
+          ]
+        },
+        {
+          "paso": "7. ROTULACIÓN",
+          "verificar": [
+            "□ Cada carpeta tiene su etiqueta",
+            "□ La información está completa",
+            "□ La letra es clara y legible",
+            "□ Incluye fechas y números de folios"
+          ]
+        }
+      ]
+    },
+    "formato_transferencia_simple": {
+      "nombre": "FORMATO SIMPLE DE TRANSFERENCIA",
+      "uso": "Para cuando se pasan documentos de una dependencia a otra",
+      "campos": [
+        "Fecha de transferencia",
+        "Dependencia que entrega",
+        "Dependencia que recibe",
+        "Responsable que entrega",
+        "Responsable que recibe",
+        "Listado de lo que se transfiere",
+        "Estado de los documentos",
+        "Firmas de responsables"
+      ],
+      "listado_documentos": [
+        "Tipo de documento",
+        "Cantidad de carpetas/cajas",
+        "Fechas que abarca",
+        "Número de folios total",
+        "Observaciones especiales"
+      ]
+    },
+    "guia_rapida_problemas": {
+      "nombre": "GUÍA RÁPIDA: ¿QUÉ HAGO SI...?",
+      "problemas_comunes": [
+        {
+          "problema": "No sé a qué tipo pertenece un documento",
+          "solucion": "Pregunta a tu jefe inmediato o consulta ejemplos similares en archivo"
+        },
+        {
+          "problema": "El documento no tiene fecha",
+          "solucion": "Busca pistas en el contenido o pregunta quién lo elaboró"
+        },
+        {
+          "problema": "Los documentos están muy deteriorados",
+          "solucion": "Manéjalos con mucho cuidado y repórtalos al responsable de archivo"
+        },
+        {
+          "problema": "Hay documentos que parecen repetidos",
+          "solucion": "Compáralos hoja por hoja, si son idénticos conserva solo uno"
+        },
+        {
+          "problema": "No alcanzan las carpetas",
+          "solucion": "Solicita más carpetas, nunca sobrecargues una carpeta"
+        },
+        {
+          "problema": "No sé si un documento es importante",
+          "solucion": "Si tienes duda, consérvalo y pregunta después"
+        },
+        {
+          "problema": "Se rompió una hoja al quitar el gancho",
+          "solucion": "Usa cinta de papel (no scotch) para reparar con cuidado"
+        }
+      ]
+    },
+    "agenda_practica": {
+      "nombre": "AGENDA PERSONAL DE APRENDIZAJE",
+      "uso": "Para que cada funcionario registre su progreso y compromisos",
+      "secciones": [
+        "Mis conocimientos antes de la capacitación (1-10)",
+        "Lo que más me costó entender",
+        "Lo que me pareció más fácil",
+        "Mi primera práctica (describir la experiencia)",
+        "Errores que cometí y cómo los corregiré",
+        "Mis compromisos para aplicar lo aprendido",
+        "Fecha para revisar mi progreso",
+        "A quién puedo pedir ayuda si tengo dudas"
+      ]
+    }
+  },
+  "buenas_practicas": {
+    "titulo": "BUENAS PRÁCTICAS PARA PRINCIPIANTES",
+    "antes_empezar": [
+      "Lávate las manos para no manchar los documentos",
+      "Ten un espacio limpio y ordenado para trabajar",
+      "Asegúrate de tener buena luz para ver bien",
+      "Prepara todos los materiales que vas a necesitar"
+    ],
+    "mientras_trabajas": [
+      "Ve despacio, es mejor hacer bien que rápido",
+      "Si tienes dudas, pregunta antes de seguir",
+      "Toma descansos para no cansarte mucho",
+      "Mantén los documentos alejados de comida y bebidas"
+    ],
+    "si_cometes_errores": [
+      "No te preocupes, todos nos equivocamos",
+      "Pide ayuda para corregir el error",
+      "Aprende del error para no repetirlo",
+      "Nunca trates de ocultar un error"
+    ],
+    "al_terminar": [
+      "Revisa que todo esté en orden",
+      "Limpia tu área de trabajo",
+      "Guarda bien los materiales",
+      "Registra lo que hiciste en tu bitácora"
+    ]
+  },
+  "instrucciones_uso": [
+    "Imprime las plantillas que necesites",
+    "Llénalas a mano con letra clara",
+    "Guarda copias de los formatos llenos",
+    "Úsalas como referencia mientras aprendes",
+    "Comparte tu experiencia con otros compañeros"
+  ]
+}
